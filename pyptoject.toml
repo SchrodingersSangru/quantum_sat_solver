@@ -1,0 +1,18 @@
+[project]
+name = "quantum_sat_solver"
+version = "0.1.1"
+description = "Comprehensive package for Solving different Satisfiability problem using qiskit and pulser framework"
+authors = [
+    { name = "Sangram Deshpande", email = "deshpande.sangram156@gmail.com" }
+]
+readme = "README.md"
+dependencies = [ pysat==3.2.2, qiskit==2.0.0,  qiskit_aer==0.17.0]
+
+keywords = ["Satisfiability_problems", "sat_solver", "quantum_sat_solver"]
+requires-python = ">=3.8"
+license = "MIT"
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
